@@ -41,31 +41,31 @@ namespace CarBookingApp.Data.Migrations
                     b.HasData(
                         new
                         {
-                            CarId = new Guid("68a2010e-7f25-44af-8e4e-fa2458b17857"),
+                            CarId = new Guid("19723339-1eae-4cad-bc45-8736234d8768"),
                             Name = "Toyota Corolla",
-                            Year = 2019
+                            Year = 2020
                         },
                         new
                         {
-                            CarId = new Guid("d1d14888-ca7c-4c65-8a44-30fa550d1f3c"),
+                            CarId = new Guid("2a06d250-fba0-4606-8b3b-bce0dddc2ccc"),
                             Name = "Honda Civic",
                             Year = 2018
                         },
                         new
                         {
-                            CarId = new Guid("998c183d-baaa-48a3-8fe7-73bde3297358"),
+                            CarId = new Guid("7242fc72-dd55-462e-b16b-c4915b81629d"),
                             Name = "Nissan Sentra",
                             Year = 2017
                         },
                         new
                         {
-                            CarId = new Guid("d120c20a-6a9d-49e3-982e-4c2178340add"),
+                            CarId = new Guid("829ba0e3-19d2-482f-ba88-37f00d9dab5e"),
                             Name = "Ford Focus",
                             Year = 2016
                         },
                         new
                         {
-                            CarId = new Guid("c959f47d-ccc4-488d-950c-724c985b2ba5"),
+                            CarId = new Guid("fe8d2ab1-db2e-40e8-a049-1f50a9f1f347"),
                             Name = "Chevrolet Cruze",
                             Year = 2015
                         });

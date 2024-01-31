@@ -19,7 +19,7 @@ namespace CarBookingApp.Data.Data
             new Car
             {
                 CarId = Guid.NewGuid(),
-                Year = 2019,
+                Year = 2020,
                 Name = "Toyota Corolla"
             },
             new Car
