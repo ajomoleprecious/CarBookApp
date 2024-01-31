@@ -1,0 +1,10 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    string secret = ViewBag.Secret;
+}
+<h1 class="justify-content-center">Here is the application</h1>
+<p>@secret</p>
+<p>@Model.localVAR</p>
+<p>@Model.Message</p>
