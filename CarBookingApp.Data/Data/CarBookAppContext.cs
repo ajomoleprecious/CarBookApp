@@ -4,12 +4,12 @@ using Microsoft.Extensions.Configuration;
 
 namespace CarBookingApp.Data.Data
 {
-    public class CarBookAppDbContext : DbContext
+    public class CarBookAppContext : DbContext
     {
         // DbSet is a collection of entities that can be queried from the database
         public DbSet<Car> Cars { get; set; }
         // Constructor that takes options as a parameter and passes it to the base class constructor (DbContext)
-        public CarBookAppDbContext(DbContextOptions<CarBookAppDbContext> options) : base(options)
+        public CarBookAppContext(DbContextOptions<CarBookAppContext> options) : base(options)
         {
         }
         // Used to configure the DbContext options such as the database provider, connection string, etc.

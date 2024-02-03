@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CarBookingApp.Data.Migrations
 {
-    [DbContext(typeof(CarBookAppDbContext))]
+    [DbContext(typeof(CarBookAppContext))]
     partial class CarBookAppDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
